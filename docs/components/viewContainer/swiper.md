@@ -22,6 +22,8 @@ sidebar_label: Swiper
 | √ |   | x | displayMultipleItems  | Number      | 1                 | 同时显示的滑块数量                                           |
 | √ |   | √ | vertical                | Boolean     | false             | 滑动方向是否为纵向                                           |
 | √ |   | √ | onAnimationfinish     | EventHandle |                   | 动画结束时会触发 animationfinish 事件                        |
+| √ |   |   | previous-margin     | String |    "0px"    | 前边距，可用于露出前一项的一小部分，接受 px 和 rpx 值	                |
+| √ |   |   | next-margin     | String |     "0px"    | 后边距，可用于露出后一项的一小部分，接受 px 和 rpx 值	                |
 
 ###### 示例：
 ```jsx
